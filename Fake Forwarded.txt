@@ -1,0 +1,61 @@
+=================================================================
+ASSALAMUALAIKUM WR.WB
+PERKENALKAN NAMA CH KU : Ramaa ST
+No Wa : 0852-7364-1971
+=================================================================
+SEARCH IN SMALI -> (message not completely loaded)
+=================================================================
+ADD IN CLASS :
+#FORWARDED MANY TIME(DITERUSKAN BERKALI-KALI)
+invoke-static {}, Lcom/RamaaMods/Privacy;->FForwaded2()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_12
+
+    check-cast p1, LX/0ti;
+
+    const/16 v0, 0x1
+
+    invoke-virtual {p1, v0}, LX/0ti;->A0T(I)V
+
+    const v0, 0x100
+
+    iput v0, p1, LX/0ti;->A05:I
+
+    :cond_12
+=================================================================
+#FORWARDED(DITERUSKAN)
+invoke-static {}, Lcom/RamaaMods/Privacy;->FForwarded1()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1f
+
+    check-cast p1, LX/0ti;
+
+    const/16 v0, 0x1
+
+    invoke-virtual {p1, v0}, LX/0ti;->A0T(I)V
+
+    :cond_1f
+=================================================================
+METHOD NYA
+
+.method public static FForwaded1()Z
+    .registers 1
+
+    const-string v0, "faketeruskan"
+
+    invoke-static {v0}, Lcom/RamaaMods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+METHOD NYA SAMA
+=================================================================
+LX/0ti;->A0T -> ada dibagian bawah (Cannot change status for calls message type)
+=================================================================
+LX/0ti Adalah Nama Class Dari -> (message not completely loaded)

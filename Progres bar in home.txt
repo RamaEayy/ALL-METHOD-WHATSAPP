@@ -1,0 +1,9 @@
+tempel di Conversation row
+
+<ProgressBar
+			android:layout_width="-1"
+			android:layout_height="-2"
+			android:indeterminate="true"
+			style="?01010078"
+			>
+		</ProgressBar>

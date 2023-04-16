@@ -1,0 +1,33 @@
+==========================================================================
+HALO ASSALAMU'ALAIKUM WR WB
+- PERKENALKAN NAMA CH SAYA -: KATANA MODS
+==========================================================================
+- I'M JUST A REGULAR PERSON, JUST A BOARD OF GOD ALMIGHTY, SO CAN'T NOTHING"
+
+- SEARCH  IN SMAIL ->  (message not completely loaded) NEXT YOU SEE MY VIDEO
+
+    check-cast p1, LX/0oz;
+
+    const/16 v0, 0x1
+
+    invoke-virtual {p1, v0}, LX/0oz;->A0T(I)V
+
+    const v0, 0x100
+
+    iput v0, p1, LX/0oz;->A05:I
+==========================================================================
+UNTUK LX/0oz ADA DI SAMPING (A19) ATAU PALING ATAS TAPI MASIH DIBAGIAN (message not completely loaded) BELUM PINDAH" TEMPAT
+==========================================================================
+UNTUK LX/0oz;->A0T -> ADA DIBAWAH (Cannot change status for calls message type) SELANJUTNYA LIHAT VIDIO SAYA BIAR GA CRASH
+==========================================================================
+SAYA TAU ANDA SEMUA JAGO, CUMAN MALES AJA
+MAKA DARI ITU MARI BERSEMANGAT UNTUK MENDALAMI LAGI!!!
+==========================================================================
+WASSALAMU'ALAIKUM WR WB
+CUKUP SEKIAN SEMOGA BERMANFAAT
+==========================================================================
+#SALAMDARIBANTEN
+#GORECODE
+#KUYBELAJAR
+#WAKTUNYABERUBAH
+==========================================================================

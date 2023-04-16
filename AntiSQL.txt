@@ -1,0 +1,40 @@
+const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/RamaaMods/RAMA/Kebal;->AntiCrashSQL(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    .line 548399
+    .line 532070
+    :cond_8
+    
+    
+    
+    
+    
+.method public static AntiCrashSQL(I)I
+    .registers 2
+
+    const-string v0, "AntiSQL"
+
+    invoke-static {v0}, Lcom/RamaaMods/RAMA/Kebal;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+    

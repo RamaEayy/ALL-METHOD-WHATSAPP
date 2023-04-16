@@ -1,0 +1,55 @@
+ASSALAMUALAIKUM WARAHMATULLAHI WABARAKATU
+
+
+METODE END GRUP :
+
+.method public static BTT_GROUP()Z
+    .registers 1
+    
+    const-string v0, "BTT_GROUP"
+    
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+-------------------------------------------------------------------------
+
+Switch....... (taroh dibawah nya)
+:goto_1a
+
+-------------------------------------------------------------------------
+Switch..... (taroh dibawahnya)
+invoke-static {}, Lcom/sammods/Privacy;->BTT_GROUP()Z
+
+    move-result v3
+    
+    if-eqz v3, :cond_a
+    
+    goto/16 :goto_1a
+    
+    :cond_a
+
+-------------------------------------------------------------------------
+
+<SwitchPreference
+            android:title="BUBARKAN GROUP "
+            android:key="BTT_GROUP"
+            android:defaultValue="false"            
+            android:summary="FITUR INI KAMU HARUS JADI ADMIN, TANPA KAMU JADI ADMIN END_GROUP NYA TIDAK WORK" />
+
+
+INDONESIA :
+SELANJUTNYA LIAT DIVIDIO GAN
+INGGRIS :
+WATCH THE DIVIDIO NEXT
+
+
+
+THANK SUBSCRIBE
+
+- KATANA MODS
+
+WASSALAMU'ALAIKUM WARAHMATULLAHI WABARAKATU

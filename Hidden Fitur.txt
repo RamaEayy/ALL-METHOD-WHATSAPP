@@ -1,0 +1,154 @@
+==========================================================================
+HELLO GUYS -> THIS IS MY CODE -> NO COPYRIGHT
+==========================================================================
+OKE -> KODE GAS COPY PASTE IN UNKNOWN BOOLEAN
+==========================================================================
+    const v4, 0x50c
+
+    if-ne v4, pX, :cond_9
+
+    :cond_5
+    const v4, 0x1
+
+    return v4
+
+    :cond_9
+    const v4, 0x3f3
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x4c1
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x63d
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x5af
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x328
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x697
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x32f
+
+    if-eq v4, pX, :cond_5
+
+    const v4, 0x4f3
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x572
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x741
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x886
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x752
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x753
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x927
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x574
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x88e
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x6d6
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x296
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x119
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x2e9
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x21b
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x224
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x225
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x1a8
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x1a9
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x335
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x10b
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x163
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x305
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x107
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x108
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x333
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x4a9
+
+    if-eq v4, pX, :cond_5
+
+    const/16 v4, 0x1df
+
+    if-eq v4, pX, :cond_5
+    
+==========================================================================
+BY - KATANA MODS - NO COPYRIGHT
+==========================================================================

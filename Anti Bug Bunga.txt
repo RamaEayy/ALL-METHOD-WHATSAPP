@@ -1,0 +1,37 @@
+=================================================================
+ASSALAMUALAIKUM WR.WB
+PERKENALKAN NAMA CH KU : Ramaa ST
+No Wa : 0852-7364-1971
+=================================================================
+SEARCH IN SMALI -> (ObjectOutputStream backed by ByteArrayOutputStream should not throw IOException) 
+SEARCH IN CLASS NYA -> (0xe)
+=================================================================
+Letakkan dibawah 0xe
+
+invoke-static {}, Lcom/RamaaMods/RAMA/Kebal;->Anti_BugBunga()I
+
+    move-result v0
+=================================================================
+Method Nya Privacy Nya
+method public static Anti_BugBunga()I
+    .registers 1
+
+    const-string v0, "BUGBUNGA"
+
+    invoke-static {v0}, Lcom/RamaaMods/RAMA/Kebal;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x6
+
+    goto :goto_c
+
+    :cond_a
+    const/16 v0, 0xe
+
+    :goto_c
+    return v0
+.end method
+

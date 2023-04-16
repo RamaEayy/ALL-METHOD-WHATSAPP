@@ -1,0 +1,44 @@
+<SwitchPreference 
+android:title="Kebal dokumen" 
+android:key="AntiDocument" 
+android:summary="Untuk kebal dokumen tanpa hilang text " />
+
+=========================
+
+Search: "Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)Landroid/graphics/drawable/Drawable;"
+
+Scroll ke atas ampe nemu isEmpaty
+
+invoke-static {}, Lcom/Isalmods/Activity/Immune;->Isal_dokumen()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_mc
+
+    goto/16 :goto_cs
+
+    :cond_mc
+    
+=========================
+    
+ .method public static Isal_dokumen()Z
+    .registers 8
+
+    const-string v0, "Isal_dokumen"
+
+    invoke-static {v0}, Lcom/Isalmods/Activity/Immune;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method

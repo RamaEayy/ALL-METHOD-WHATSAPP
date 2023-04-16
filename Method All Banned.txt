@@ -1,0 +1,65 @@
+                <PreferenceCategory
+                    android:title="Features WhatsApp/Opsi dukungan" />
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="WHATSAPP ME">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="http://wa.me/6285273641971" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Banned Nomor V1">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Desative o número da minha conta [+62 XXX-XXXX-XXXX] imediatamente porque o número foi perdido" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Banned Nomor V2">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Porfavor,desative o número da minha conta ,o chip e os documentos foram roubados essa conta possuí dados importante, então, por favor desative minha conta [+62 XXX-XXXX-XXXX]" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Banned Nomor v3">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Olá sou o Ridolfo, preciso da sua ajuda, meu celular foi roubado e junto com ele está meu chip com WhatsApp, não quero bagunçar minhas coisas pessoais, como coisas da minha empresa e planos, quero meu número desativado! Até que eu consiga recuperar o Sim ou tentar recuperar meu telefone! Número: [+62 XXX-XXXX-XXXX]" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Reset Verifikasi By Rama">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Buenas noches Ocupo que desactiven mi numero por asunto de robo/extraviado [+62 XXX-XXXX-XXXX] porque tiene datos muy personales mios, por asuntos de trabajo, y porque contiene cuentas com numeros de cuentas muy secretas Por favor desactiven el numero Buenas dias/noches, gracias[+62 XXX-XXXX-XXXX]" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Unbanned V1">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Olá Equipe, o sistema de vocês baniram meu número por engano. Peço que vocês reativem meu número pois tenho família em outro país e preciso me comunicar com eles [+62 XXX-XXXX-XXXX]" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Unbanned V2">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=mailto:support@support.whatsapp.com?subject=Olá equipe de suporte, O meu Whatsapp foi banido e eu não consigo recuperar minha conta. Estou sem o mesmo por conversar com minha familia e meus colegas de trabalho. Ja fiz os procedimentos que achei na internet mas ate agora não obtive retorno do Whatsapp. Como recuperar minha conta? [+62 XXX-XXXX-XXXX]" />
+                </Preference>
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Banned Nomor Target V1">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Hola, soy nuevo en la aplicación de WhatsApp, y hoy en el primer día noté que un usuario usaba otra versión modificada de WhatsApp, por lo que presenté esta denuncia, espero que el Equipo de WhatsApp bloquee el número: [+62 XXX-XXXX-XXXX]" />
+                </Preference>                
+                <Preference
+                    android:icon="@7F08062F"
+                    android:title="Banned Nomor Target V2">
+                    <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="mailto:support@support.whatsapp.com?subject=Olá, perdi meus documentos junto com meu telefone e cartão SIM. então eu quero que você desative meu número imediatamente fui hackeado tenho medo que alguém possa entrar na minha conta do whatsapp porque tem informações importantes sobre mim o número é: [+62 XXX-XXXX-XXXX]" />
+                </Preference>
