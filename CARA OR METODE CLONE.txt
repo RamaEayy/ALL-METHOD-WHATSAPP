@@ -1,0 +1,95 @@
+SEARCH -> AndroidManifest.xml
+
+//=================================================//
+#TAHAP PERTAMA ATAU THE FIRST STAGE
+WHATSAPP BETA
+
+com.whatsapp
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki
+
+com.whatsapp.DEEP_LINK_REDIRECT
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.DEEP_LINK_REDIRECT
+
+com.whatsapp.fileprovider
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.fileprovider
+
+com.whatsapp.firebaseinitprovider
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.firebaseinitprovider
+
+com.whatsapp.permission.BROADCAST
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.permission.BROADCAST
+
+com.whatsapp.permission.MAPS_RECEIVE
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.permission.MAPS_RECEIVE
+
+com.whatsapp.permission.REGISTRATION
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.permission.REGISTRATION
+
+com.whatsapp.provider.media
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.provider.media
+
+com.whatsapp.provider.sticker_whitelist_check
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.provider.sticker_whitelist_check
+
+com.whatsapp.provider.instrumentation
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.provider.instrumentation
+
+com.whatsapp.provider.migrate.ios
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.provider.migrate.ios
+
+com.whatsapp.provider.MigrationContentProvider
+[ REPLACE ATAU GANTI ]
+com.whatsapp.riki.provider.MigrationContentProvider
+
+vnd.android.cursor.item/vnd.com.whatsapp.profile
+[ REPLACE ATAU GANTI ]
+vnd.android.cursor.item/vnd.com.whatsapp.riki.profile
+
+vnd.android.cursor.item/vnd.com.whatsapp.video.call
+[ REPLACE ATAU GANTI ]
+vnd.android.cursor.item/vnd.com.whatsapp.riki.video.call
+
+vnd.android.cursor.item/vnd.com.whatsapp.voip.call
+[ REPLACE ATAU GANTI ]
+vnd.android.cursor.item/vnd.com.whatsapp.riki.voip.call
+
+//==================================================//
+#TAHAP KEDUA ATAU SECOND STAGE 
+
+resources.arsc GANTI com.whatsapp menjadi package yang kamu ganti tadi
+
+CONTOH : com.whatsapp [GANTI] com.whatsapp.riki
+
+//=================================================//
+# INI MASIH TAHAP KETIGA ATAU THIS IS STILL STAGE THIRD
+
+JIKA TERJADI CRASH PADA CLASSES KALIAN CARA AJA :
+"com.android.contacts" BAGIAN :
+# virtual methods
+.method public A02(Landroid/content/Context;)Landroid/accounts/Account;
+
+"com.whatsapp.riki" GANTI "com.whatsapp"
+ADA -> "package:com.whatsapp" GANTI -> "package:com.whatsapp.riki"
+
+//=================================================//
+
+#TAHAP TAHAP KE EMPAT ATAU FOURTH STAGE
+
+INI WAJIB DI GANTI, BIAR GA CRASH PAS VERIFIKASI NAMA ANDA
+
+classes -> search : "com.android.contacts" ada dibawah nya -> "com.whatsapp.riki" GANTI "com.whatsapp"
+
+//=================================================//
+
+
